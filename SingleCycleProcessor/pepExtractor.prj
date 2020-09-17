@@ -1,0 +1,8 @@
+work	"ALU.vhd"
+work	"ALUDecoder.vhd"
+work	"ControlUnit.vhd"
+work	"DataMemory.vhd"
+work	"InstructionMemory.vhd"
+work	"MainDecoder.vhd"
+work	"RegisterFile.vhd"
+work	"SingleCycleProcessor.vhd"

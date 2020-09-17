@@ -1,0 +1,37 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o Z:/ise/SingleCycleProcessor/SingleCycleProcessor_tb_isim_beh.exe -prj Z:/ise/SingleCycleProcessor/SingleCycleProcessor_tb_beh.prj work.SingleCycleProcessor_tb 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "Z:/ise/SingleCycleProcessor/MainDecoder.vhd" into library work
+Parsing VHDL file "Z:/ise/SingleCycleProcessor/ALUDecoder.vhd" into library work
+Parsing VHDL file "Z:/ise/SingleCycleProcessor/RegisterFile.vhd" into library work
+Parsing VHDL file "Z:/ise/SingleCycleProcessor/InstructionMemory.vhd" into library work
+Parsing VHDL file "Z:/ise/SingleCycleProcessor/DataMemory.vhd" into library work
+Parsing VHDL file "Z:/ise/SingleCycleProcessor/ControlUnit.vhd" into library work
+Parsing VHDL file "Z:/ise/SingleCycleProcessor/ALU.vhd" into library work
+Parsing VHDL file "Z:/ise/SingleCycleProcessor/SingleCycleProcessor.vhd" into library work
+Parsing VHDL file "Z:/ise/SingleCycleProcessor/SingleCycleProcessor_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 120032 KB
+Fuse CPU Usage: 300 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package numeric_std
+Compiling architecture behavioral of entity InstructionMemory [instructionmemory_default]
+Compiling architecture behavioral of entity RegisterFile [registerfile_default]
+Compiling architecture behavioral of entity DataMemory [datamemory_default]
+Compiling architecture behavioral of entity MainDecoder [maindecoder_default]
+Compiling architecture behavioral of entity ALUDecoder [aludecoder_default]
+Compiling architecture behavioral of entity ControlUnit [controlunit_default]
+Compiling architecture behavioral of entity ALU [alu_default]
+Compiling architecture behavioral of entity SingleCycleProcessor [singlecycleprocessor_default]
+Compiling architecture behavior of entity singlecycleprocessor_tb
+Time Resolution for simulation is 1ps.
+Compiled 22 VHDL Units
+Built simulation executable Z:/ise/SingleCycleProcessor/SingleCycleProcessor_tb_isim_beh.exe
+Fuse Memory Usage: 137872 KB
+Fuse CPU Usage: 460 ms
