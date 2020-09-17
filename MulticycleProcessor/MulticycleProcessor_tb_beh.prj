@@ -1,0 +1,8 @@
+vhdl work "MainDecoder.vhd"
+vhdl work "ALUDecoder.vhd"
+vhdl work "RegisterFile.vhd"
+vhdl work "InstrDataMemory.vhd"
+vhdl work "ControlUnit.vhd"
+vhdl work "ALU.vhd"
+vhdl work "MulticycleProcessor.vhd"
+vhdl work "MulticycleProcessor_tb.vhd"

@@ -1,0 +1,16 @@
+v 4
+file . "ControlUnit.vhd" "31106d693c46a788d95c97b55cd4bdb7fb4f9b0e" "20200908033537.051":
+  entity controlunit at 1( 0) + 0 on 15;
+  architecture behavioral of controlunit at 32( 1027) + 0 on 16;
+file . "MulticycleProcessor.vhd" "141d18d7e12a4ea465973faad985066f6e1d7a3b" "20200908042257.527":
+  entity multicycleprocessor at 1( 0) + 0 on 23;
+  architecture behavioral of multicycleprocessor at 26( 800) + 0 on 24;
+file . "ALU.vhd" "4cee6090da6c56b80831823d186b32338d79235d" "20200908033412.269":
+  entity alu at 20( 469) + 0 on 13;
+  architecture behavioral of alu at 41( 1145) + 0 on 14;
+file . "MainDecoder.vhd" "5b00f49f91425d03f2bc2c8f64c0e1359d93c637" "20200908033752.343":
+  entity maindecoder at 1( 0) + 0 on 17;
+  architecture behavioral of maindecoder at 32( 963) + 0 on 18;
+file . "InstrDataMemory.vhd" "97d3f4241f4f1081f4d54219b63ad42bce8be1dd" "20200908041055.797":
+  entity instrdatamemory at 1( 0) + 0 on 21;
+  architecture behavioral of instrdatamemory at 22( 630) + 0 on 22;
